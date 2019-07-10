@@ -28,6 +28,7 @@ services:
             - JIGASI_HEALTH_CHECK_INTERVAL
             - JIGASI_SIP_KEEP_ALIVE_METHOD
             - JIGASI_ENABLE_SDES_SRTP
+            - JIGASI_DEFAULT_ROOM_NAME
             - TZ
         depends_on:
             - prosody
